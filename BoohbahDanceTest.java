@@ -13,6 +13,8 @@ public class BoohbahDanceTest {
 
         System.out.println(Ritual.BuildRoutine());
         System.out.println(Ritual.ModifyRoutine());
+        System.out.println("\nREMIX SECTION: \n");
+        System.out.println(Ritual.remixRoutine());
 
     }
 }

@@ -32,4 +32,14 @@ public class DanceRoutine {
         return result.toString();
 
     }
+    public String remixRoutine(){
+        StringBuilder baseText = new StringBuilder(this.BuildRoutine());
+        baseText.insert(0, "\n---REMIX---\n");
+        baseText.delete(baseText.length()-1,baseText.length() );
+        baseText.append("\n(Backwards Boohbah ritual!)\n");
+        baseText.reverse();
+        
+        return baseText.toString();
+
+    }
 }
